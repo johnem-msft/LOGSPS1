@@ -58,7 +58,7 @@ Set-ExecutionPolicy Unrestricted
 
 #### Batch Wrapper
 
-```js
+```batch
 @echo ####LOGSv.1.6.3 BAT-WRAPPER#####  
 SET ScriptDirectory=%~dp0 
 CD /D %ScriptDirectory% 
@@ -72,7 +72,7 @@ PAUSE
 
 #### PowerShell Script
 
-```js
+```powershell
 ####LOGS.PS1 v.1.6.3#####  
 ## PLEASE RUN THIS SCRIPT IN POWERSHELL ISE AS AN ADMINISTRATOR  
 ## REMEMBER TO >> > > SET-EXECUTIONPOLICY UNRESTRICTED < < <<   
