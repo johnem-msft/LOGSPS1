@@ -1,5 +1,7 @@
-title: Slate theme
-description: Slate is a theme for GitHub Pages.
+title: LOGS.PS1
+description: LOGS.PS1 & LOGS.BAT allows you to quickly collect information from a Windows 10 client machine through PowerShell. <br>
+Main cmdlt functions &colon; <br> 
+get-process, get-wmiobject, netsh, invoke-webrequest, PowerShell Function, Get-WinEvent, Start-Job, Receive-Job, System.Windows.Forms, EventSearch, SetupDiag.exe, Set-ExecutionPolicy, Get-WindowsUpdateLog, Get-Printer, Select-String, CMD.EXE /C
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-slate
