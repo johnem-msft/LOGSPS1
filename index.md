@@ -2,23 +2,17 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-This project was previously hosted on Technet Gallery/Scripting Center which as since been retired (3/2020)
-
-<a href="https://docs.microsoft.com/en-us/teamblog/technet-gallery-retirement">TechNet Gallery Retirement</a>
-
 ## Usage
 
-The LOGS.BAT file will automatically prompt for Local Admin Privileges and run a newly created PS1 script with Execution Privileges accordingly - make sure to Save As... and then run.
+The **LOGS.BAT** file will automatically prompt for Local Admin Privileges and run a newly created PS1 script with Execution Privileges accordingly - make sure to Save As... and then run.
 
 Right Click the above .bat link and choose Save As or Save Link As:
 ![SaveAs](https://raw.githubusercontent.com/johnem-msft/LOGSPS1/master/assets/images/saveas.png)
 
 Once the file has saved locally open it: ![OpenFile](https://raw.githubusercontent.com/johnem-msft/LOGSPS1/master/assets/images/openfile.png)
 
-When attempting to run  the .bat file you will be prompted by Smart Screen Filter in Windows
-Choose: ![MoreInfo](https://raw.githubusercontent.com/johnem-msft/LOGSPS1/master/assets/images/moreinfo.png) and then ![RunAnyway](https://raw.githubusercontent.com/johnem-msft/LOGSPS1/master/assets/images/runanyway.png)
+When attempting to run  the .bat file you may be prompted by Smart Screen Filter in Windows
+Choose: More info and then Run anyway ![MoreInfo](https://raw.githubusercontent.com/johnem-msft/LOGSPS1/master/assets/images/moreruncombo.png)
 
 
 ## Header 2
@@ -107,6 +101,11 @@ end
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
+Text can be **bold**, _italic_, or ~~strikethrough~~.
+
+This project was previously hosted on Technet Gallery/Scripting Center which as since been retired (3/2020)
+
+<a href="https://docs.microsoft.com/en-us/teamblog/technet-gallery-retirement">TechNet Gallery Retirement</a>
 
 ### Definition lists can be used with HTML syntax.
 
