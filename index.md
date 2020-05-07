@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en-US">
 
 <head>
@@ -22,3 +22,18 @@
 <!-- End Jekyll SEO tag -->
 
 </head>
+
+<body>
+
+<!-- HEADER -->
+<div id="header_wrap" class="outer">
+<header class="inner">
+<h1 id="project_title">Slate theme</h1>
+<h2 id="project_tagline">Slate is a theme for GitHub Pages.</h2>
+
+<section id="downloads">
+<a class="zip_download_link" href="https://github.com/pages-themes/slate/zipball/master">Download this project as a .zip file</a>
+<a class="tar_download_link" href="https://github.com/pages-themes/slate/tarball/master">Download this project as a tar.gz file</a>
+</section>
+</header>
+</div>
