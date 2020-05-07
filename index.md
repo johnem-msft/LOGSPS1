@@ -4,7 +4,8 @@ layout: default
 
 ## Usage
 
-The **LOGS.BAT** file will automatically prompt for Local Admin Privileges and run a newly created PS1 script via -ExecutionPolicy Bypass.<br>
+The **LOGS.BAT** file will automatically prompt for Local Admin Privileges and run a newly created PS1 script via -ExecutionPolicy Bypass.
+
 **Right Click** the above **.bat** link and choose Save As or **Save Link As**:
 ![SaveAs](https://raw.githubusercontent.com/johnem-msft/LOGSPS1/master/assets/images/saveas.png)
 
