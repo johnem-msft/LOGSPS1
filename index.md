@@ -23,8 +23,8 @@ Set-ExecutionPolicy Unrestricted
 
 ## Details
 
-> Latest Version is 1.6.3
-> Project migrated from Technet Gallery on 5/2020 due to site retirement
+> Latest Version is 1.6.3<br>
+> Project migrated from Technet Gallery on 5/2020 due to site retirement<br>
 > <a href="https://docs.microsoft.com/en-us/teamblog/technet-gallery-retirement">TechNet Gallery Retirement</a>
 
 #### Collection Methods
@@ -33,7 +33,10 @@ Set-ExecutionPolicy Unrestricted
 
 - TOP-ERRORS.TXT will also now also open in a GUI Out-Gridview allowing filtering if you choose the option (unchecked by default):
   - Choose which logs to collect:
-  - ![LOGSgui](https://raw.githubusercontent.com/johnem-msft/LOGSPS1/master/assets/images/logsgui.png)<br>
+  - ![LOGSgui](https://raw.githubusercontent.com/johnem-msft/LOGSPS1/master/assets/images/logsgui.png)
+  - ![outGridView](https://raw.githubusercontent.com/johnem-msft/LOGSPS1/master/assets/images/outgridview.png)
+    - Full filtering options in Out-GridView are also available:
+	- ![filterGridView](https://raw.githubusercontent.com/johnem-msft/LOGSPS1/master/assets/images/filtergridview.png)
 
 - Additional Helper Files & collections:
   - All files are written to %temp%\LOGS\GPRESULT
