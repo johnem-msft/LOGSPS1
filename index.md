@@ -4,16 +4,15 @@ layout: default
 
 ## Usage
 
-The **LOGS.BAT** file will automatically prompt for Local Admin Privileges and run a newly created PS1 script with Execution Privileges accordingly - make sure to Save As... and then run.
-
-Right Click the above .bat link and choose Save As or Save Link As:
+The **LOGS.BAT** file will automatically prompt for Local Admin Privileges and run a newly created PS1 script via -ExecutionPolicy Bypass.
+**Right Click** the above **.bat** link and choose Save As or **Save Link As**:
 ![SaveAs](https://raw.githubusercontent.com/johnem-msft/LOGSPS1/master/assets/images/saveas.png)
 
 Once the file has saved locally open it: ![OpenFile](https://raw.githubusercontent.com/johnem-msft/LOGSPS1/master/assets/images/openfile.png)
 
 When attempting to run  the .bat file you may be prompted by Smart Screen Filter in Windows
-Choose: More info and then Run anyway ![MoreInfo](https://raw.githubusercontent.com/johnem-msft/LOGSPS1/master/assets/images/moreruncombo.png)
-
+![MoreInfo](https://raw.githubusercontent.com/johnem-msft/LOGSPS1/master/assets/images/moreruncombo.png)
+Choose: **More info** and then **Run anyway**
 
 ## Header 2
 
