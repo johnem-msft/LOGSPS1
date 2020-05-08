@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-< a name="top"></a>
+<a name="top"></a>
 ## Usage: How to download 
 
 The **LOGS.BAT** file will automatically prompt for Local Admin Privileges and run a newly created PS1 script via -ExecutionPolicy Bypass.
@@ -58,10 +58,12 @@ Set-ExecutionPolicy Unrestricted
 
 #### Batch Wrapper
 
-LOGS.PS1 is wrapped in a batch(.BAT) wrapper, when running LOGS.BAT it will generate two new files:
-- LOGS_.PS1 is created which has the top 10 lines of the original batch script from LOGS.BAT included 
-- These top 10 lines are then removed and a new file is Generated, LOGS.PS1 which is ran via -ExecutionPolicy Bypass
-  - This allows the full LOGS.PS1 batch script to be run with appropriate privileges after User Account Control prompts are granted
+LOGS.PS1 is wrapped in a batch(.BAT) wrapper; LOGS.BAT which will generate two new files:
+- LOGS_.PS1 has the top 10 lines of the original batch script from LOGS.BAT included 
+- These top 10 lines are then removed and a new file is Generated, LOGS.PS1 which is ran via ExecutionPolicy Bypass
+  - This allows the LOGS.PS1 PowerShell script to be run with appropriate privileges after User Account Control prompts are granted
+  - All logs are written to %temp%\LOGS\GPRESULT
+  - It is encouraged to delete all files generated before running the script a second time (including in %temp%)
 
 ```batch
 @echo ####LOGSv.1.6.3 BAT-WRAPPER#####  
