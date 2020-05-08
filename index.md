@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-
-## Usage
+< a name="top"></a>
+## Usage: How to download 
 
 The **LOGS.BAT** file will automatically prompt for Local Admin Privileges and run a newly created PS1 script via -ExecutionPolicy Bypass.
 
@@ -58,6 +58,11 @@ Set-ExecutionPolicy Unrestricted
 
 #### Batch Wrapper
 
+LOGS.PS1 is wrapped in a batch(.BAT) wrapper, when running LOGS.BAT it will generate two new files:
+- LOGS_.PS1 is created which has the top 10 lines of the original batch script from LOGS.BAT included 
+- These top 10 lines are then removed and a new file is Generated, LOGS.PS1 which is ran via -ExecutionPolicy Bypass
+  - This allows the full LOGS.PS1 batch script to be run with appropriate privileges after User Account Control prompts are granted
+
 ```batch
 @echo ####LOGSv.1.6.3 BAT-WRAPPER#####  
 SET ScriptDirectory=%~dp0 
@@ -72,7 +77,15 @@ PAUSE
 
 #### PowerShell Script
 
-```powershell
+In the event that the LOGS.BAT batch file fails to run the collection (due to AV or otherwise) it is also possible to run the PS1 script directly - preferably in PowerShell ISE as an Administrator
+The steps to do that would be as follows:
+- Open PowerShell ISE as an Administrator on your local Windows System (Search for "ise" in Start, Right Click PowerShell ISE and Choose Run as administrator...
+- Type in the command mentioned below: *Set-ExecutionPolicy Unrestricted* in the console and hit enter and accept appropriate prompts
+- Left click the ps1 link at the <a href="#top">top of this page</a> to view the full PS1 script and copy the entire script
+- Paste the script in full into the white pane in PowerShell ISE 
+- Click the Green Go button in PowerShell ISE to execute the script
+
+```plaintext
 ####LOGS.PS1 v.1.6.3#####  
 ## PLEASE RUN THIS SCRIPT IN POWERSHELL ISE AS AN ADMINISTRATOR  
 ## REMEMBER TO >> > > SET-EXECUTIONPOLICY UNRESTRICTED < < <<   
