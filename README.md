@@ -1,8 +1,4 @@
----
-layout: default
----
-<a name="top"></a>
-## Usage: How to download 
+From: http://aka.ms/logsps1
 
 The **LOGS.BAT** file will automatically prompt for Local Admin Privileges and run a newly created PS1 script via -ExecutionPolicy Bypass.
 
