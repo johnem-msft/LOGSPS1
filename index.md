@@ -7,12 +7,12 @@ layout: default
 The **LOGS.BAT** file will automatically prompt for Local Admin Privileges and run a newly created PS1 script via -ExecutionPolicy Bypass.
 
 **Right Click** the above **.bat** link and choose Save As or **Save Link As**:
-![SaveAs](https://raw.githubusercontent.com/johnem-msft/LOGSPS1/master/assets/images/saveas.png)
+![SaveAs](https://johnem-msft.github.io/LOGSPS1/assets/images/saveas.png)
 
-Once the file has saved locally open it: ![OpenFile](https://raw.githubusercontent.com/johnem-msft/LOGSPS1/master/assets/images/openfile.png)
+Once the file has saved locally open it: ![OpenFile](https://johnem-msft.github.io/LOGSPS1/assets/images/openfile.png)
 
 When attempting to run  the .bat file you may be prompted by Smart Screen Filter in Windows
-![MoreInfo](https://raw.githubusercontent.com/johnem-msft/LOGSPS1/master/assets/images/moreruncombo.png)<br>
+![MoreInfo](https://johnem-msft.github.io/LOGSPS1/assets/images/moreruncombo.png)<br>
 Choose: **More info** and then **Run anyway**
 
 Accept User Account Control options to run the according PowerShell script with full execution rights.
@@ -33,10 +33,10 @@ Set-ExecutionPolicy Unrestricted
 
 - TOP-ERRORS.TXT will also now also open in a GUI Out-Gridview allowing filtering if you choose the option (unchecked by default):
   - Choose which logs to collect:
-  - ![LOGSgui](https://raw.githubusercontent.com/johnem-msft/LOGSPS1/master/assets/images/logsgui.png)
-  - ![outGridView](https://raw.githubusercontent.com/johnem-msft/LOGSPS1/master/assets/images/outgridview.png)
+  - ![LOGSgui](https://johnem-msft.github.io/LOGSPS1/assets/images/logsgui.png)
+  - ![outGridView](https://johnem-msft.github.io/LOGSPS1/assets/images/outgridview.png)
     - Full filtering options in Out-GridView are also available:
-	- ![filterGridView](https://raw.githubusercontent.com/johnem-msft/LOGSPS1/master/assets/images/filtergridview.png)
+	- ![filterGridView](https://johnem-msft.github.io/LOGSPS1/assets/images/filtergridview.png)
 
 - Additional Helper Files & collections:
   - All files are written to %temp%\LOGS\GPRESULT
